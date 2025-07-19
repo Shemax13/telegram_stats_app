@@ -327,9 +327,12 @@ async def main():
     
     # Список каналов для мониторинга
     channels_to_monitor = [
-        # Добавьте сюда username каналов для мониторинга
-        # "example_channel",
-        # "another_channel"
+        # Добавьте сюда username каналов для мониторинга (без символа @)
+        "shemaxpoetry",    # SheMax Poetry - ваш канал
+        "durov",           # Канал Павла Дурова
+        "telegram",        # Официальный канал Telegram
+        # "example_channel",  # Пример канала
+        # "another_channel"   # Еще один пример
     ]
     
     if not channels_to_monitor:
